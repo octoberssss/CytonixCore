@@ -1,0 +1,18 @@
+# Cytonix Faction Core | Created by Taylor R
+
+# Prefixes can be changed in the FormatUtils.php file (found in the "utils" folder)
+
+# Rank Management
+ranks:
+  Guest:
+    fancyName: "§r§7Guest"
+    permissions:
+      - "cytonix.kits.guest"
+
+# Map Management
+max-members: 5
+max-claims: 50
+max-faction-homes: 2
+max-allies: 1
+
+

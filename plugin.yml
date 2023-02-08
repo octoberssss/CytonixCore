@@ -1,0 +1,32 @@
+name: CytonixCore
+author: Taco
+description: "Core for Cytonix Factions"
+
+version: 1.0.0
+api: "4.0.0"
+main: cytonix\Main
+
+softdepend:
+  - SimplePacketHandler
+  - Commando
+  - InvMenu
+
+permissions:
+  cytonix.hidden:
+    default: op
+  cytonix.ranks:
+    default: op
+  cytonix.permissions:
+    default: op
+  cytonix.kits:
+    default: op
+  cytonix.stylus:
+    default: op
+  cytonix.ce:
+    default: op
+  cytonix.fly:
+    default: op
+  cytonix.gems:
+    default: op
+  cytonix.crates:
+    default: op
